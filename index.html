@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web Design • Creative Projects • Digital Solutions">
+  <title>Saleha Mohammed | My Portfolio</title>
+  <link rel="preload" as="image" href="assets/images/portfolio-cover.webp">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Saleha Mohammed — home">
+        <span class="brand-mark" aria-hidden="true">SM</span>
+        <span class="brand-text">
+          <span class="brand-name">Saleha Mohammed</span>
+          <span class="brand-role" data-i18n="brand.role">My Portfolio</span>
+        </span>
+      </a>
+
+      <div class="nav-wrap">
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" aria-current="page" data-i18n="nav.home">Home</a></li>
+            <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <button type="button" id="lang-toggle" class="control-btn" aria-label="Switch to Arabic" aria-pressed="false">
+            <span class="control-icon" aria-hidden="true">文</span>
+            <span data-i18n="lang.label">العربية</span>
+          </button>
+          <button type="button" id="theme-toggle" class="control-btn" aria-label="Switch color theme" aria-pressed="false">
+            <span class="control-icon" data-theme-icon aria-hidden="true">☾</span>
+            <span data-theme-label data-i18n="theme.toDark">Dark mode</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Web Designer</p>
+
+          <h1 class="hero-title">
+            <span class="hero-name" data-i18n="hero.name">Saleha Mohammed</span>
+            <span data-i18n="hero.title">My Portfolio</span>
+          </h1>
+
+          <p class="lead hero-subtitle" data-i18n="hero.subtitle">Web Design • Creative Projects • Digital Solutions</p>
+          <p class="hero-phrase" data-i18n="hero.phrase">Design • Build • Inspire</p>
+
+          <div class="btn-row">
+            <a class="btn btn--primary" href="projects.html">
+              <span data-i18n="hero.cta">Explore Projects</span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="btn btn--ghost" href="contact.html" data-i18n="hero.secondary">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-glow" aria-hidden="true"></div>
+          <figure class="hero-frame">
+            <img
+              src="assets/images/portfolio-cover.webp"
+              alt="Portfolio cover artwork in soft violet and blue tones"
+              width="1672"
+              height="941"
+              fetchpriority="high"
+              data-i18n-alt="hero.coverAlt">
+            <figcaption class="hero-caption">
+              <span>
+                <strong data-i18n="hero.captionTitle">Saleha Mohammed</strong>
+                <span data-i18n="hero.captionText">Web Design • Creative Projects • Digital Solutions</span>
+              </span>
+              <span aria-hidden="true">✦</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+          <h2 id="about-title" data-i18n="about.title">Elegant ideas, thoughtfully built.</h2>
+        </div>
+        <div>
+          <p class="lead" data-i18n="about.text">Web Design • Creative Projects • Digital Solutions. A curated selection of applied and training projects presented with clarity and care.</p>
+          <div class="chip-row" aria-label="Focus areas">
+            <span class="chip" data-i18n="about.chip1">Web Design</span>
+            <span class="chip" data-i18n="about.chip2">Creative Projects</span>
+            <span class="chip" data-i18n="about.chip3">Digital Solutions</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured projects -->
+    <section class="section" aria-labelledby="featured-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="featured.eyebrow">Selected Work</p>
+          <h2 id="featured-title" data-i18n="featured.title">Three featured projects</h2>
+          <p class="lead" data-i18n="featured.text">A closer look at a few applied and training projects.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/project-1-digital-cv.webp" alt="Digital CV project preview showing an organized Arabic CV interface" width="1334" height="677" loading="lazy" data-i18n-alt="alt.p1">
+              <span class="badge" data-i18n="projects.badge">Training Project</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Digital CV</h3>
+              <p class="project-desc">A digital CV designed to present personal and professional information through a clean and organized online interface.</p>
+              <div class="project-meta">
+                <span><span data-i18n="projects.platform">Platform</span>: <strong>Netlify</strong></span>
+                <a class="card-link" href="https://prismatic-sfogliatella-6a82b3.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <span data-i18n="projects.view">View Project</span><span class="arrow" aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/project-2-aroma-cafe.webp" alt="Aroma Café website preview with coffee products and menu sections" width="1317" height="643" loading="lazy" data-i18n-alt="alt.p2">
+              <span class="badge" data-i18n="projects.badge">Training Project</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Aroma Café</h3>
+              <p class="project-desc">A bilingual café website concept featuring coffee products, menu sections, and an elegant visual identity.</p>
+              <div class="project-meta">
+                <span><span data-i18n="projects.platform">Platform</span>: <strong>Lovable</strong></span>
+                <a class="card-link" href="https://pixel-perfect-playback-2083.lovable.app" target="_blank" rel="noopener noreferrer">
+                  <span data-i18n="projects.view">View Project</span><span class="arrow" aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/project-3-bait-al-ilham.webp" alt="Bait Al-Ilham Decor website preview showcasing furniture and interior design" width="1344" height="668" loading="lazy" data-i18n-alt="alt.p3">
+              <span class="badge" data-i18n="projects.badge">Training Project</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Bait Al-Ilham Decor</h3>
+              <p class="project-desc">A furniture and interior design website concept showcasing the business identity, services, and decorative style.</p>
+              <div class="project-meta">
+                <span><span data-i18n="projects.platform">Platform</span>: <strong>Bolt</strong></span>
+                <a class="card-link" href="https://bait-al-ilham-decor-v375.bolt.host" target="_blank" rel="noopener noreferrer">
+                  <span data-i18n="projects.view">View Project</span><span class="arrow" aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="center-cta">
+          <a class="btn btn--primary" href="projects.html">
+            <span data-i18n="featured.cta">View All Projects</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="footer-phrase" data-i18n="footer.phrase">Design • Build • Inspire</span>
+      <span class="footer-meta">© <span id="year">2026</span> Saleha Mohammed · <span data-i18n="footer.rights">All rights reserved.</span></span>
+    </div>
+  </footer>
+</body>
+</html>

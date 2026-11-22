@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web Design • Creative Projects • Digital Solutions">
+  <title>Saleha Mohammed | Contact</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Saleha Mohammed — home">
+        <span class="brand-mark" aria-hidden="true">SM</span>
+        <span class="brand-text">
+          <span class="brand-name">Saleha Mohammed</span>
+          <span class="brand-role" data-i18n="brand.role">My Portfolio</span>
+        </span>
+      </a>
+
+      <div class="nav-wrap">
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+            <li><a href="contact.html" aria-current="page" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <button type="button" id="lang-toggle" class="control-btn" aria-label="Switch to Arabic" aria-pressed="false">
+            <span class="control-icon" aria-hidden="true">文</span>
+            <span data-i18n="lang.label">العربية</span>
+          </button>
+          <button type="button" id="theme-toggle" class="control-btn" aria-label="Switch color theme" aria-pressed="false">
+            <span class="control-icon" data-theme-icon aria-hidden="true">☾</span>
+            <span data-theme-label data-i18n="theme.toDark">Dark mode</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+        <h1 data-i18n="contact.title">Let's Connect</h1>
+        <p class="lead" data-i18n="contact.lead">A simple, elegant space for your inquiries.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container contact-grid">
+        <aside class="panel panel--note">
+          <div class="note-icon" aria-hidden="true">✦</div>
+          <h2 data-i18n="contact.noteTitle">Contact details</h2>
+          <p class="lead" data-i18n="contact.note">Contact details will be added here. No email address or phone number has been provided yet.</p>
+
+          <div class="chip-row">
+            <span class="chip" data-i18n="hero.phrase">Design • Build • Inspire</span>
+          </div>
+        </aside>
+
+        <div class="panel">
+          <h2 data-i18n="contact.formTitle">Send a message</h2>
+          <form id="contact-form" class="form-grid" novalidate>
+            <div class="field">
+              <label for="name" data-i18n="contact.name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" data-i18n-placeholder="contact.namePh">
+            </div>
+
+            <div class="field">
+              <label for="email" data-i18n="contact.email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="Your email address" data-i18n-placeholder="contact.emailPh">
+            </div>
+
+            <div class="field">
+              <label for="message" data-i18n="contact.message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message..." data-i18n-placeholder="contact.messagePh"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary">
+              <span data-i18n="contact.send">Prepare Message</span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </button>
+
+            <p class="form-status" id="form-status" role="status" aria-live="polite" data-i18n="contact.status">This demo form does not send data. You can copy your message before closing this page.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="footer-phrase" data-i18n="footer.phrase">Design • Build • Inspire</span>
+      <span class="footer-meta">© <span id="year">2026</span> Saleha Mohammed · <span data-i18n="footer.rights">All rights reserved.</span></span>
+    </div>
+  </footer>
+</body>
+</html>
